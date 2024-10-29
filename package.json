@@ -1,0 +1,22 @@
+{
+  "name": "matterbeam",
+  "repository": "matterbeam-tech/matterbeam-analytics",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint --parallel",
+    "test": "turbo run test",
+    "type:check": "turbo type:check"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^2.2.3",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=20"
+  }
+}

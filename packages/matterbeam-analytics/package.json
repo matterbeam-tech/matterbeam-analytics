@@ -1,0 +1,25 @@
+{
+  "name": "matterbeam-analytics",
+  "version": "0.0.0",
+  "repository": "matterbeam-tech/matterbeam-analytics",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint .",
+    "test": "vitest --watch=false",
+    "type:check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "analytics": "^0.8.14",
+    "analytics-plugin-matterbeam": "workspace:*"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "tsup": "^8.3.5",
+    "vitest": "^2.1.4"
+  }
+}
