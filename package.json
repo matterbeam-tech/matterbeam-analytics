@@ -1,5 +1,6 @@
 {
   "name": "matterbeam",
+  "description": "Analytics client for sending events to your Matterbeam instance.",
   "repository": "matterbeam-tech/matterbeam-analytics",
   "private": true,
   "scripts": {
