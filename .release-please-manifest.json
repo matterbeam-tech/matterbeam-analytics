@@ -1,3 +1,4 @@
 {
-  ".": "0.0.0"
+  "packages/analytics-plugin-matterbeam": "0.0.0",
+  "packages/matterbeam-analytics": "0.0.0"
 }
